@@ -241,7 +241,7 @@ NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8)
 
 각 하위 클래스의 빌더인 NyPizza.Builder는 NyPizza를 반환하고, Calzone.Builder는 Calzone를 반환한다.
 
-이처럼 상위 클래스가 정의한 타입이 아닌, 하위 타입을 반환하는 기능을 **공변 반환 타이핑(covariant return typing)**이라고 한다.
+이처럼 상위 클래스가 정의한 타입이 아닌, 하위 타입을 반환하는 기능을 **공변 반환 타이핑(covariant return typing)** 이라고 한다.
 
 ## 그 밖의 장점
 
